@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #a6abb9ff;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 150px;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.large-image {
+  width: 100%;
+  height: auto;
+  max-height: 1000px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
