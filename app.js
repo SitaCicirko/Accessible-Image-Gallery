@@ -37,6 +37,7 @@ function createThumbnails(imagesArray) {
 }
 
 createThumbnails(imagesArray);
+createLargeImage(imagesArray[0]);
 
 function createLargeImage(image) {
   const existingLargeImage = largeImageContainer.querySelector("img");
